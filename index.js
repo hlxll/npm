@@ -1,7 +1,8 @@
-import Format from "./src/format";
-import Validate from "./src/validate";
-
+import Format from "./format";
+import Validate from "./validate";
+import Select from "./components/select.html"
 export {
     Format,
-    Validate
+    Validate,
+    Select
 };

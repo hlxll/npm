@@ -5,7 +5,7 @@ const formatToFixed = (money, decimals = 2) => {
         ) / Math.pow(10, decimals)
     ).toFixed(decimals);
 }
-const Format = {
+const Validate = {
     // 格式化金额展示： 12341234.246 -> $ 12,341,234.25
     formatMoney: (money, symbol = "", decimals = 2) =>
         formatToFixed(money, decimals)
@@ -13,4 +13,4 @@ const Format = {
             .replace(/^/, `${symbol}`),
 };
 
-export default Format;
+export default Validate;

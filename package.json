@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hlxll/npm/issues"
   },
-  "homepage": "https://github.com/hlxll/npm#readme"
+  "homepage": "https://github.com/hlxll/npm#readme",
+  "dependencies": {
+    "haunglin_ui": "^0.1.0"
+  }
 }
